@@ -1,8 +1,8 @@
 name: Run Python Script
 
 on:
- # push:
- #   branches: [ "main" ]
+  push:
+    branches: [ "main" ]
   workflow_dispatch:   # allows manual run
  # schedule:
  #   - cron: '0 8 * * *'
