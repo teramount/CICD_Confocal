@@ -25,4 +25,4 @@ jobs:
         shell: pwsh
         run: |
           python --version
-          python script.py
+          python script.py --name Ricky --age 30
