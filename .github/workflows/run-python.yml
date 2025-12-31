@@ -24,5 +24,11 @@ jobs:
       - name: Run script
         shell: pwsh
         run: |
+          data_path="RawData/Location_101.csv"
+          naming_path="RawData/Location_101_renamed.csv"
+          base_name='B-065-000-000'
+          src/scil_renaming.py
           python --version
-          python src/script.py --name Ricky --age 30
+          #python src/script.py --name Ricky --age 30
+          python src/scil_renaming.py --name Ricky --age 30
+          data_path, naming_path, base_name)
