@@ -30,7 +30,9 @@ jobs:
         shell: pwsh
         run: |
           $data_path="RawData/Location_101.csv"
-          $naming_path="RawData/Location_101_renamed.csv"
+          #$naming_path="C:\Users\RicardaLouk\OneDrive - Teramount\Documents\TestFolder/Location_101_renamed.csv"
+          $naming_path="//LAPTOP-UCDEI1VK/Users/RicardaLouk/OneDrive - Teramount/Documents/TestFolder"
+
           $base_name='B-065-000-000'
           python --version
           #python src/script.py --name Ricky --age 30
