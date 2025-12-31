@@ -25,4 +25,4 @@ jobs:
         shell: pwsh
         run: |
           python --version
-          python script.py --name Ricky --age 30
+          python \srcscript.py --name Ricky --age 30
